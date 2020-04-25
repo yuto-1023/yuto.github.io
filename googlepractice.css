@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+body{
+  background-image:url(nightcity2.jpg);
+  background-size:cover;
+}
+*{
+  box-sizing:border-box;
+}
+.header-wrapper{
+  padding:8px;
+}
+.header-icon{
+  height:48px;
+  color:white;
+  float:right;
+  font-size:13px;
+  padding-right:12px;
+  margin-right:20px;
+}
+.icon{
+  color:white;
+  display:inline-block;
+  padding-right:15px;
+  cursor:pointer;
+}
+.icon:hover{
+  opacity:0.8;
+}
+.fas{
+  font-size:15px;
+}
+.acount{
+  background-color: rgb(237,28,36);
+  display: inline-block;
+  border-radius:100%;
+  padding:0px 8px;
+  cursor:pointer;
+}
+.acount:hover{
+  background-color: rgba(237,28,36,0.8);
+}
+.clear{
+  clear:left;
+}
+.main-wrapper{
+  margin-top:60px;
+  text-align:center;
+  color:white;
+}
+.main-top{
+  margin:0px auto;
+  font-size:70px;
+  padding:70px 0px 0px 0px;
+}
+.input-wrapper{
+  margin:38px 0px 20px 0px;
+  position:relative;
+}
+.fa-search{
+  position:absolute;
+  color:rgb(123,107,127);
+  width:40px;
+  top:35%;
+}
+.input-form{
+    width:45%;
+    height:45px;
+    border:1px solid;
+    border-radius:25px;
+    padding-inline-start:40px;
+    font-size:14px;
+}
+.list-wrapper{
+
+}
+.list{
+ display:inline-block;
+ font-size:12px;
+ width:77.39px;
+ margin:0px 30px;
+ padding-top:18px;
+}
+.list:hover{
+  background-color:rgba(221,221,221,0.2);
+}
+.icon-background{
+  background-color:white;
+  width:45px;
+  height:45px;
+  border-radius:100%;
+  margin:0px auto;
+}
+.fa-google-drive{
+  color:rgb(250,166,26);
+  padding-top:15px;
+}
+.fa-google{
+  color:rgb(40,164,74);
+  padding-top:15px;
+}
+.fa-plus{
+  color:black;
+  padding-top:15px;
+}
+.list-comment{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-top:15px;
+}
